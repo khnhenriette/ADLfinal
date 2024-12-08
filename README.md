@@ -6,10 +6,10 @@ Also visit https://rome.baulab.info/ for more information about this project and
 
 There are two branches called 'replication' and 'math'. 
 
-'replication' contains the code from the parent repository slightly changed to run on gpt2-medium per default. 
-'math' contains the code for a modified application of the suggested methods to run causal tracing and rank-one model editing on a gpt2-medium based model fine tuned on elementary school math questions 
+'replication' is cloned from the parent repository (https://github.com/kmeng01/rome) and slightly changed to run on gpt2-medium per default. 
+'math' stared of as a branch of 'replication' and contains the code for a modified application of the suggested methods to run causal tracing and rank-one model editing on a gpt2-medium based model fine tuned on elementary school math questions based on the SVAMP dataset for mathematical model evaluation. 
 
-results fir the math adaptation can be found in the math branch in the following jupyter notebooks in the notebooks folder: 
+results for the math adaptation can be found in the 'math' branch in the following jupyter notebooks in the notebooks folder: 
 - causal_trace.ipynb
 - average_causal_effects.ipynb
 - medium_fine_tune_math_hpo_final.ipynb
